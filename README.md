@@ -8,6 +8,16 @@ The first programming assignment is to implement a TCP client, called TCPAsk. TC
 - Take any data that the server sends, and and print the data.
 - TCPAsk takes an optional string as parameter. This string is sent as data to the server when the TCP connection is opened, followed by a newline character (linefeed '\n').
 
+| Protocol  | Server name	 | Port  | Arguments | Comment |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Daytime  | time.nist.gov  | 13 | -  | Public server |
+| Daytime  | java.lab.ssvl.kth.se  | 13  | -  | KTH server |
+| Whois  | whois.iis.se  | 43  | (domain name, IP address or AS number) | Public server |
+| Whois  | whois.internic.net  | 43  | (domain name, IP address or AS number)  | Public server |
+| Echo  | java.lab.ssvl.kth.se  | 7  | String  | KTH server |
+| Discard | java.lab.ssvl.kth.se  | 9  | String  | KTH server |
+| Chargen | java.lab.ssvl.kth.se  | 19  | -  | KTH server |
+
 Protocol	Server name	        Port	Arguments	Comment
 Daytime	   time.nist.gov	    13	       –	    Publicserver
 
