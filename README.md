@@ -1,6 +1,6 @@
 # IK1203-Labs
 
-##Task 1 - TCPAsk
+## Task 1 - TCPAsk
 
 The first programming assignment is to implement a TCP client, called TCPAsk. TCPAsk operates in a straight-forward manner:
 
@@ -36,7 +36,7 @@ Discard	 java.lab.ssvl.kth.se	9	String	        KTH Server
 
 Chargen	 java.lab.ssvl.kth.se	19	  –	            KTH Server
 
-##Task 2 - HTTPEcho Server
+## Task 2 - HTTPEcho Server
 
 In this part, you will implement a web server. It is a web server that does not do very much, but you will probably find it useful for the rest of this assignment. The server accepts an incoming TCP connection, reads data from it until the client closes the connection, and returns ("echoes") an HTTP response back with the data in it. 
 
@@ -60,7 +60,7 @@ Connection: keep-alive
 - Send fives lines to HTTPEcho server. The HTTPEcho server returns a correct HTTP response, with the five lines in the data section of the response.
 - Repeat test no. 2 several times after each other. Each time, the HTTPEcho server returns a correct HTTP response.
 
-##Task3 - HTTPAsk Server
+## Task3 - HTTPAsk Server
 
 In this part, you will implement another web server – HTTPAsk. This is a web server that uses the client you did in Task 1. When you send an HTTP request to HTTPAsk, you provide a hostname, a port number, and optionally a string as parameters for the request.
 
@@ -79,7 +79,7 @@ You need to write the code that validates the request, "picks apart" the URI com
 - Send a request to send one line to an echo server, and verify that the output is correct
 - Send a bad request, and verify that the server returns a proper HTTP response
 
-##Task 4 - Concurrent HTTPAsk Server
+## Task 4 - Concurrent HTTPAsk Server
 
 In this task, you will take the HTTPAsk server you did in Task 3, and turn it into a concurrent server. The server you did for Task 3 deals with one client at a time (most likely). A concurrent server can handle multiple clients in parallel.
 
