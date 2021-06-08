@@ -70,7 +70,6 @@ Your job is to implement a class called HTTPAsk. It's "main" method implements t
 
 ```
 $ java HTTPAsk 888
-
 ```
 You need to write the code that validates the request, "picks apart" the URI component of the request and extracts the parameters and their values.
 
@@ -88,7 +87,6 @@ You would start it in the following way to run on port 8888:
 
 ```
 $ java ConcHTTPAsk 888
-
 ```
 
 ### Evalutation
